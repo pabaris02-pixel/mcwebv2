@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2D Minecraft</title>
+    <link rel="stylesheet" href="../src/styles.css" />
+  </head>
+  <body>
+    <div class="ui">
+      <h1>2D Minecraft в браузере</h1>
+      <p class="hint">
+        Управление: A/D или стрелки — движение, W или пробел — прыжок. Колёсико
+        мыши или цифры 1–5 — выбор блока. ЛКМ — разрушить блок, ПКМ — поставить.
+      </p>
+      <div class="inventory" id="inventory"></div>
+    </div>
+    <canvas id="game" width="960" height="540"></canvas>
+    <script type="module" src="../src/main.js"></script>
+  </body>
+</html>
